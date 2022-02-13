@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prueba1.Views.ResultPage"
+             NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+            
+            <Label Text="OPERACIONES MATEMATICAS" HorizontalOptions="Center" />
+            <Label Text="Suma" HorizontalOptions="FillAndExpand" />
+            <Label Text="{Binding suma}" FontSize="Medium" FontAttributes="Bold" />
+            <Label Text="Resta" HorizontalOptions="FillAndExpand" />
+            <Label Text="{Binding resta}" FontSize="Medium" FontAttributes="Bold" />
+            <Label Text="Multiplicacion" HorizontalOptions="FillAndExpand" />
+            <Label Text="{Binding multi}" FontSize="Medium" FontAttributes="Bold" />
+            <Label Text="Division" HorizontalOptions="FillAndExpand" />
+            <Label Text="{Binding divi}" FontSize="Medium" FontAttributes="Bold" />
+
+            <Button Text="Regresar" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

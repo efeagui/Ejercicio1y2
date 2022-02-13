@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prueba1.menuPage"
+             BackgroundImage="fon.jpg"
+             NavigationPage.HasNavigationBar="False">
+    
+    <ContentPage.Content>
+        <StackLayout Margin="0,0,0,0">
+           
+
+            <Button x:Name="btnApp1"  Text="OPERACIONES MATEMATICAS" Clicked="btnApp1_Clicked" Padding="0,0,0,0" Margin="0,200,0,0" HorizontalOptions="Center" WidthRequest="250" ></Button>
+           
+            <Button x:Name="btnApp2" Text="DATOS PERSONALES" Clicked="btnApp2_Clicked" HeightRequest="50" WidthRequest="250" HorizontalOptions="Center"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

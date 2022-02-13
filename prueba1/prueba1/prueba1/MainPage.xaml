@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prueba1.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout BackgroundColor="black">
+        <Frame BackgroundColor="AliceBlue" Padding="15" CornerRadius="0">
+            <Label Text="Favio Aguilera Tarea 1 "  HorizontalTextAlignment="Center" TextColor="Red" FontSize="22"/>
+        </Frame>
+
+        <Entry x:Name="txtnumber1" Placeholder="Ingrese un  nuemro" Keyboard="Numeric" />
+
+        <Entry x:Name="txtnumber2" Placeholder="Ingrese un  nuemro" Keyboard="Numeric" />
+
+
+
+        <Button Text="Resultado" x:Name="btnagragar" Clicked="btnagragar_Clicked"  BackgroundColor="Green" FontAttributes="Bold"></Button>
+
+        <Button Text="Regresar al Menu" x:Name="btnsegunda" Clicked="btnsegunda_Clicked" BackgroundColor="Red" FontAttributes="Bold"></Button>
+            
+    </StackLayout>
+    
+
+</ContentPage>

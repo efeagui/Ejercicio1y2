@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="prueba1.Views.BindingPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="INFORMACION PERSONAL" HorizontalOptions="Center" />
+            <Label Text="NOMBRE" HorizontalOptions="FillAndExpand" />
+            <Label Text="{Binding nombre}" FontSize="Medium" FontAttributes="Bold" />
+            <Label Text="APELLIDO" HorizontalOptions="FillAndExpand" />
+            <Label Text="{Binding apellido}" FontSize="Medium" FontAttributes="Bold" />
+            <Label Text="EDAD" HorizontalOptions="FillAndExpand" />
+            <Label Text="{Binding edad }" FontSize="Medium" FontAttributes="Bold" />
+            <Label Text="CORREO" HorizontalOptions="FillAndExpand" />
+            <Label Text="{Binding correo}" FontSize="Medium" FontAttributes="Bold" />
+
+            <Button x:Name="btnRegresar2" Text="Regresar" Clicked="btnRegresar2_Clicked"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
